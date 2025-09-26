@@ -120,7 +120,19 @@ pytest -q
 }
 
 ```
+### User Case
+**In case of searching for images based on given text.**
+<div style="display: flex; gap: 10px;">
+  <img src="https://p0.qhimg.com/t11098f6bcd000b4fb05d7bf627.jpg" alt="Image 1" title="https://p0.qhimg.com/t11098f6bcd000b4fb05d7bf627.jpg" style="width: 45%;">
+  <img src="https://p0.qhimg.com/t11098f6bcdc3c5f3e99a1dbfad.jpg" alt="Image 2" title="https://p0.qhimg.com/t11098f6bcdc3c5f3e99a1dbfad.jpg" style="width: 45%;">
+</div>
 
+**Image URLs:**
+- https://p0.qhimg.com/t11098f6bcd000b4fb05d7bf627.jpg
+- https://p0.qhimg.com/t11098f6bcdc3c5f3e99a1dbfad.jpg
+
+
+![text_2_image](data/test_text_2_image.png)
 
 
 ## License
