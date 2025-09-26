@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+.vscode/
+.DS_Store
+
+
+# mcp resource
+embeddings/
+
+# bak
+bak/
+
+# npx inspect
+package.json
+package-lock.json
+node_modules/

@@ -1,4 +1,4 @@
-# fgclip-mcp
+# FGCLIP-MCP
 
 MCP (Model Context Protocol) server for [FG-CLIP](https://github.com/360CVGroup/FG-CLIP) embedding services. To obtain and configure an API key, please apply at `https://research.360.cn/sass`.
 
@@ -70,10 +70,11 @@ Returns:
 
 ## Dev && Test
 ```bash
-git clone https://github.com/360CVGroup/fgclip-mcp 
-cd fgclip-mcp
+git clone https://github.com/360CVGroup/FGCLIP-MCP 
+cd FGCLIP-MCP
 uv venv
 uv sync
+source .venv/bin/activate
 export MCP_API_KEY=your_api_key 
 pytest -q
 ```
@@ -109,7 +110,7 @@ pytest -q
         "--directory",
         "/path_to_fgclip-mcp/src/fgclip_mcp",
         "run",
-        "/path_to_fgclip-mcp/fgclip_mcp/__main__.py"
+        "/path_to_fgclip-mcp/src/fgclip_mcp/__main__.py"
       ],
       "env": {
         "MCP_API_KEY": "your_api_key"
