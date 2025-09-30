@@ -1,6 +1,6 @@
 # FGCLIP-MCP
 
-MCP (Model Context Protocol) server for [FG-CLIP](https://github.com/360CVGroup/FG-CLIP) embedding services. To obtain and configure an API key, please apply at `https://research.360.cn/sass`.
+MCP (Model Context Protocol) server for [FG-CLIP](https://github.com/360CVGroup/FG-CLIP) embedding services. To obtain and configure the API key, please apply at `https://research.360.cn/sass`.
 
 ## Features
 
@@ -68,7 +68,7 @@ Returns:
 - `shape`: Shape information of the result
 - `success`: Whether the operation succeeded
 
-## Dev && Test
+## Development & Testing
 ```bash
 git clone https://github.com/360CVGroup/FGCLIP-MCP 
 cd FGCLIP-MCP
@@ -120,8 +120,23 @@ pytest -q
 }
 
 ```
-### User Case
-**In case of searching for images based on given text.**
+
+### Use Case in [Cursor IDE](https://cursor.com/download)
+
+**Locate MCP Setting**
+![step1](data/cursor_guide.png)
+
+**Config MCP Setting**
+![step2](data/cursor_config_mcp.png)
+
+**Enable MCP**
+![step3](data/cursor_enable_mcp.png)
+
+**Chat with MCP**
+
+**Example: Searching for images based on given text**
+![text_2_image](data/test_text_2_image.png)
+
 <div style="display: flex; gap: 10px;">
   <img src="https://p0.qhimg.com/t11098f6bcd000b4fb05d7bf627.jpg" alt="Image 1" title="https://p0.qhimg.com/t11098f6bcd000b4fb05d7bf627.jpg" style="width: 45%;">
   <img src="https://p0.qhimg.com/t11098f6bcdc3c5f3e99a1dbfad.jpg" alt="Image 2" title="https://p0.qhimg.com/t11098f6bcdc3c5f3e99a1dbfad.jpg" style="width: 45%;">
@@ -130,10 +145,6 @@ pytest -q
 **Image URLs:**
 - https://p0.qhimg.com/t11098f6bcd000b4fb05d7bf627.jpg
 - https://p0.qhimg.com/t11098f6bcdc3c5f3e99a1dbfad.jpg
-
-
-![text_2_image](data/test_text_2_image.png)
-
 
 ## License
 
